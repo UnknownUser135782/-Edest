@@ -1,0 +1,137 @@
+body {
+    background-image: url("/public/img/şiir_resim.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container1, .container2 {
+    flex: 1;
+    padding: 20px;
+    backdrop-filter: blur(60px);
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height:max-content;
+}
+
+.container1 {
+    margin: 50px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    min-height: 500px;
+}
+
+.containerBiçimler{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.container3{
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.başlıklar {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.seçenekler {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(185, 185, 185);
+}
+
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.containerButonlar{
+    width: 100%;
+}
+
+.buton1, .buton2 {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s;
+    width: 100%;    
+}
+
+.buton1:hover{
+    background-color: #0056b3;
+}
+
+.buton1{
+    background-color:#007bff;
+}
+
+.buton2{
+    background-color: forestgreen;
+}
+
+.buton2:hover{
+    background-color:darkgreen;
+}
+
+.edest {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.şiir {
+    line-height: 1.5;
+    text-align: justify;
+    background-image: url("/public/img/kağıt.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.containerButonlar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.butonlar {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.result{
+    color: grey;
+}
